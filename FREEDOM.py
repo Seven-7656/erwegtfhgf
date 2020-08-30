@@ -1,4 +1,4 @@
-import discord
+﻿import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
@@ -144,4 +144,4 @@ async def on_voice_state_update(member, before, after):
                 await bot.wait_for('voice_state_update', check = check)
                 await channel2.delete()
 
-bot.run('NzE4MDQ3OTY5ODM1ODc2NDAz.Xtjn2A.iMRksuA7bisuATUQtimotoJbaxo')
+bot.run(TOKEN)
